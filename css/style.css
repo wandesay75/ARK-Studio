@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald';
+}
+
+#portofolio {
+  background-color: #1d1d1d;
+}
+
+#contact {
+  background-color: #0c0b0b;
+  color: white;
+}
+
+#up {
+  margin-left: 48.59%;
+  font-size: 50px;
+}
+
+#about {
+  background-color: #0c0b0b;
+  color: white;
+}
+
+.hubungi {
+  text-decoration: none;
+  color: white;
+  transition: 0.8s ease;
+}
+
+.hubungi:hover {
+  color: rgb(240, 11, 11);
+  transition: 0.8s ease;
+}
+
+.col h1 {
+  transition: 0.8s ease;
+  font-size: 30px;
+}
+.col h1:hover {
+  color: rgb(240, 11, 11);
+  cursor: pointer;
+  transition: 0.8s ease;
+  font-size: 35px;
+}
+.col h2 {
+  transition: 0.8s ease;
+  font-size: 30px;
+}
+.col h2:hover {
+  color: rgb(240, 11, 11);
+  cursor: pointer;
+  transition: 0.8s ease;
+  font-size: 35px;
+}
+
+.status {
+  text-decoration: none;
+  color: #0c0b0b;
+  transition: 0.8s ease;
+}
+
+.status a:hover {
+  color: rgb(240, 11, 11);
+  text-decoration: none;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+#about2 {
+  background-color: #0c0b0b;
+}
+.color {
+  color: white;
+}
+section {
+  padding-top: 5rem;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: whitesmoke;
+  font-size: 50px;
+  padding-top: 80px;
+  letter-spacing: 6px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.ico i {
+  font-size: 30px;
+}
+.web {
+  transition: 0.5s ease;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.web a p:hover {
+  color: rgb(240, 11, 11);
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+
+footer {
+  background: #1d1d1d;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+
+footer span a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease;
+}
+
+footer span a:hover {
+  color: rgb(240, 11, 11);
+  transition: 0.5s ease;
+}
+
+@media (max-width: 858px) {
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title h1 {
+    color: whitesmoke;
+    font-size: 21px;
+    padding-top: 14px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+  .col h1 {
+    transition: 0.8s ease;
+    font-size: 30px;
+  }
+  .col h1:hover {
+    color: rgb(240, 11, 11);
+    cursor: pointer;
+    transition: 0.8s ease;
+    font-size: 35px;
+  }
+
+  .ico i {
+    font-size: 30px;
+  }
+
+  .status {
+    text-decoration: none;
+    color: #0c0b0b;
+    transition: 0.8s ease;
+  }
+
+  .status a:hover {
+    color: rgb(240, 11, 11);
+    text-decoration: none;
+    transition: 0.8s ease;
+    cursor: pointer;
+  }
+
+  .col h2 {
+    transition: 0.8s ease;
+    font-size: 30px;
+  }
+  .col h2:hover {
+    color: rgb(240, 11, 11);
+    cursor: pointer;
+    transition: 0.8s ease;
+    font-size: 35px;
+  }
+
+  #up {
+    margin-left: 45%;
+    font-size: 50px;
+  }
+}
