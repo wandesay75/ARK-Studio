@@ -14,7 +14,10 @@ header {
   background-position: center;
 }
 nav {
-  background: transparent;
+  position: fixed;
+  z-index: 9999;
+  background-color: #1d1d1d;
+  opacity: 80%;
   height: 85px;
   width: 100%;
 }
@@ -91,6 +94,8 @@ nav ul li a.active {
   }
 
   nav {
+    position: fixed;
+    z-index: 9999;
     background-color: #1d1d1d;
     opacity: 89.95%;
   }
